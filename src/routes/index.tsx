@@ -6,12 +6,12 @@ export default component$(() => {
   return (
     <div>
       <Link class="mindblow" href="/flower">
-        Flower 🤯
+        Flower?
       </Link>
     </div>
   );
 });
 
 export const head: DocumentHead = {
-  title: 'this is Qwik',
+  title: 'footer Qwik',
 };
