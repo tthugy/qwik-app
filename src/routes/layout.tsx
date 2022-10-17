@@ -12,7 +12,7 @@ export default component$(() => {
       </main>
       <footer>
         <a href="https://www.builder.io/" target="_blank">
-          Made with Qwik
+         builder
         </a>
       </footer>
     </>

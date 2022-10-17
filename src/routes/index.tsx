@@ -6,7 +6,7 @@ export default component$(() => {
   return (
     <div>
       <Link class="mindblow" href="/flower">
-        Flower?
+        Flower
       </Link>
     </div>
   );
