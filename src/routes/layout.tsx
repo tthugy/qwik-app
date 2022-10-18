@@ -10,11 +10,7 @@ export default component$(() => {
           <Slot />
         </section>
       </main>
-      <footer>
-        <a href="https://www.builder.io/" target="_blank">
-         builder
-        </a>
-      </footer>
+      <footer></footer>
     </>
   );
 });
