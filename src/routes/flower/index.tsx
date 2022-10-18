@@ -15,7 +15,7 @@ export default component$(() => {
     const timeout = setTimeout(() => (state.count = 1), 500);
     cleanup(() => clearTimeout(timeout));
 
-    const internal = setInterval(() => state.count++, 7000);
+    const internal = setInterval(() => state.count++, 5000);
     cleanup(() => clearInterval(internal));
   });
 
