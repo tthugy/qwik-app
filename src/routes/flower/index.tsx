@@ -12,7 +12,7 @@ export default component$(() => {
   });
 
   useClientEffect$(({ cleanup }) => {
-    const timeout = setTimeout(() => (state.count = 1), 500);
+    const timeout = setTimeout(() => (state.count = 1), 100);
     cleanup(() => clearTimeout(timeout));
 
     const internal = setInterval(() => state.count++, 5000);
@@ -43,7 +43,7 @@ export default component$(() => {
             key={i}
             class={{
               square: true,
-              odd: i % 2 === 0,
+              odd: i % 5 === 0,
             }}
             style={{ '--index': `${i + 1}` }}
           />
