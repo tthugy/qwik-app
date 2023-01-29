@@ -5,9 +5,6 @@ import { Link } from '@builder.io/qwik-city';
 export default component$(() => {
   return (
     <div>
-      <Link class="mindblow" href="/flower">
-        Flower
-      </Link>
     </div>
   );
 });
