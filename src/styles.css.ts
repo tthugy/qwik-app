@@ -6,8 +6,8 @@ export const [themeClass, vars] = createTheme({
     white: '#fff'
   },
   space: {
-    small: '4px',
-    medium: '8px',
+    small: '.1rem',
+    medium: '.4rem',
   }
 });
 
