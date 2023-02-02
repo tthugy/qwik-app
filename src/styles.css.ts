@@ -4,10 +4,6 @@ export const [themeClass, vars] = createTheme({
   color: {
     brand: 'blue',
     white: '#fff'
-  },
-  space: {
-    small: '.1rem',
-    medium: '.4rem',
   }
 });
 
