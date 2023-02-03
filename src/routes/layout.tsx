@@ -4,7 +4,8 @@ import Header from '../components/header/header';
 export default component$(() => {
   return (
     <>
-    qwik
+    <h1></h1>
+    <div>QUIK-APP</div>
     </>
   );
 });
