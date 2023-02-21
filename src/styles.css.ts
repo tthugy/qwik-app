@@ -4,6 +4,9 @@ export const [themeClass, vars] = createTheme({
   color: {
     brand: 'red',
     white: '#fff'
+  },
+  tester: {
+    test: 'abc'
   }
 });
 
