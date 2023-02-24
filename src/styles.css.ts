@@ -6,7 +6,7 @@ export const [themeClass, vars] = createTheme({
     white: '#fff'
   },
   tester: {
-    test: 'test'
+    test: 'test page'
   }
 });
 
