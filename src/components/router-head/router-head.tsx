@@ -20,10 +20,6 @@ export const RouterHead = component$(() => {
         rel="stylesheet"
       />
 
-      {head.meta.map((m) => (
-        <meta {...m} />
-      ))}
-
       {head.links.map((l) => (
         <link {...l} />
       ))}
