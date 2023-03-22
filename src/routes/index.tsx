@@ -10,5 +10,5 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'test track',
+  title: 'Galaxy 2023',
 };
