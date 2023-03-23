@@ -5,7 +5,6 @@ export default component$(() => {
   return (
     <>
     <div>QUIK-APP</div>
-    <p>builder.io</p>
     </>
   );
 });
