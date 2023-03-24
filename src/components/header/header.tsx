@@ -11,6 +11,7 @@ export default component$(() => {
         <a href="https://github.io/" target="_blank">
           <QwikLogo />
         </a>
+        <span>header</span>
       </div>
     </header>
   );
