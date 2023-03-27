@@ -10,5 +10,5 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: '2023',
+  title: 'text',
 };
